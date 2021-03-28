@@ -1,0 +1,155 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.preheader{
+    width:100%;
+    height:60px;
+    background-color: rgba(248, 252, 5, 0.952);
+    display: flex;
+
+}
+
+.preheading_contact{
+    width:20%;
+}
+.preheading_contact{
+    margin: 0px;
+    padding:4px;
+    color: rgba(22, 12, 12, 0.959);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.preheading_email{
+    width:40%;
+}
+.preheading_email{
+    margin: 0px;
+    padding:4px;
+    color: rgba(22, 12, 12, 0.959);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.preheading_address{
+    width:40%;
+}
+.preheading_address{
+    margin: 0px;
+    padding: 4px;
+    color: rgba(22, 12, 12, 0.959);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }  
+  .fa-facebook {
+    color: #3B5998;
+  }
+  
+  .fa-twitter {
+    color: #55ACEE;
+  }
+  .fa-youtube {
+    color:#bb0000;
+  }
+  
+  .fa-instagram {
+    
+    color:crimson;
+  }  
+
+.main_header{
+    width:100%;
+    height:100px;
+    display:flex;
+}
+
+.main_header{
+   width:100%;
+   height: 90px;
+   background: color rgb(12, 91, 128);
+}
+.logo{
+    width: 48%;
+    height: 100%;
+}
+
+.sub_logo{
+    margin-top:-50px;
+    margin-left:230px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+
+.menu{
+    width: 60%;
+    height:70px;
+}
+
+.menu ul{
+    list-style:square;
+    margin:0px;
+    padding:26px;
+    float:right;
+}
+
+.menu ul li{
+    display:inline-block;
+}
+.menu ul li a{
+    text-decoration:darkgreen;
+    color:darkgray;
+    padding:25px 20px;
+    font-size:23px;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+.menu ul li  a:hover{
+    color: rgb(12, 245, 51);
+    background-color: darkorchid;
+
+}
+
+.slider{
+    width:100%;
+    height: 500px; 
+    background-image: url('../assets/image/ipl\ image.jpg');
+    background-repeat:round;
+    background-size:cover;
+}
+
+.features{
+    margin:20px auto;
+    padding:20px 0px;
+    width:80%;
+    height: 200px;
+    display:flex;
+}
+
+.feature_coln{
+    margin:20px auto;
+    width: 15%;
+    height:150px;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+
+}
