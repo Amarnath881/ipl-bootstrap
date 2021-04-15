@@ -1,0 +1,63 @@
+.body{
+    margin:0px;
+    padding:0px;
+}
+
+.above_slider1{
+    padding: 20px;
+    width:100%;
+    height:300px;
+    background-color: rgba(252, 213, 115, 0.979);
+    background-image: url(../assets/image/csk_logo_png.png);
+    background-repeat:no-repeat;
+    background-size:250px;
+    display:flex;
+  }
+  
+  
+  .above_slider2{
+    padding: 20px;
+    width:100%;
+    height:300px;
+    background-color: rgba(78, 96, 250, 0.979);
+    background-image: url(../assets/image/mumbai_logo_png.png);
+    background-repeat:no-repeat;
+    background-size:300px;
+    display:flex;
+  }
+  
+  
+  .above_slider3{
+    padding: 20px;
+    width:100%;
+    height:300px;
+    background-color: rgb(252, 82, 82);
+    background-image: url(../assets/image/rcb_logo-png.png);
+    background-repeat:no-repeat;
+    background-size:170px;
+    display:flex;
+  }
+  
+  .above_slider4{
+    padding: 10px;
+    width:100%;
+    height:300px;
+    background-color: rgba(255, 111, 231, 0.979);
+    background-image: url(../assets/image/delhi_logo_png.png);
+    background-repeat:no-repeat;
+    background-size:200px;
+    display:flex;
+  }
+  
+  .above_slider5{
+    padding:20px;
+    width:100%;
+    height:300px;
+    background-color: rgba(252, 169, 62, 0.979);
+    background-image: url(../assets/image/hydrabad_logo-png.png);
+    background-repeat:no-repeat;
+    background-size:250px;
+    display:flex;
+  }
+  
+  

@@ -13,11 +13,11 @@ body{
 
 .fa {
     padding: 60px;
-    font-size: 70px;
-    width: 50px;
+    font-size: 50px;
+    width:40px;
     text-align: right;
     text-decoration: none;
-    margin: 10px 20px;
+    margin: 8px 30px;
   }  
   .fa-facebook {
     color: #3B5998;
@@ -61,7 +61,7 @@ body{
 
 
 .menu{
-    width: 60%;
+    width: 10%;
     height:70px;
 }
 
@@ -76,22 +76,23 @@ body{
     display:inline-block;
 }
 .menu ul li a{
-    text-decoration:rgba(14, 39, 180, 0.856);
-    color:rgb(249, 249, 250);
+    text-decoration:rgb(16, 221, 221);
+    color:rgb(248, 212, 144);
     padding:25px 20px;
     font-size:23px;
     font-weight:inherit;
-    font-family:fantasy;
+    font-family:cursive;
     text-align: center;
 }
 
 .menu ul li  a:hover{
-    color: rgb(12, 245, 51);
-    background-color: darkorchid;
+    color: rgb(15, 235, 180);
+    background-color:lightslategray;
+    border-radius: 30px;
 
 }
-div {background-color: rgb(0, 2, 128);}
-div a {
+.main_header {background-color: rgb(0, 2, 128);}
+.main_header a {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -114,32 +115,16 @@ div a {
   ul li ul li { 
     background: #555; 
     display: block; 
+    width:300px;
   }
   ul li ul li a {display:block !important;} 
-  ul li ul li:hover {background: #666;}
+  ul li ul li:hover {background: #666;width:300px;}
 
 
 .slider{
     width:100%;
-    height: 500px; 
+    height: 600px; 
     background-image: url('../assets/image/ipl\ image.jpg');
     background-repeat:round;
     background-size:cover;
-}
-
-.features{
-    margin:20px auto;
-    padding:20px 0px;
-    width:80%;
-    height: 200px;
-    display:flex;
-}
-
-.feature_coln{
-    margin:20px auto;
-    width: 15%;
-    height:150px;
-    background-color: darkolivegreen;
-    border-radius: 30px;
-
 }
