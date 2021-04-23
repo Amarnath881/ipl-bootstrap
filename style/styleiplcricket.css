@@ -3,18 +3,17 @@ body{
     padding:0px;
 }
 
-.preheader{
+.preheader1{
     width:100%;
-    height:130px;
+    height:60px;
     background-color:rgb(0, 0, 0);
     display: flex;
 
 }
 
 .fa {
-    padding: 60px;
-    font-size: 50px;
-    width:40px;
+    padding: 10px;
+    width:170px;
     text-align: right;
     text-decoration: none;
     margin: 8px 30px;
@@ -108,14 +107,14 @@ body{
   ul li:hover {background: #555;}
   ul li:hover ul {display: block;}
   ul li ul {
-    position: absolute;
-    width: 100px;
+    position:fixed;
+    width: 30px;
     display: none;
   }
   ul li ul li { 
     background: #555; 
     display: block; 
-    width:300px;
+    width:200px;
   }
   ul li ul li a {display:block !important;} 
   ul li ul li:hover {background: #666;width:300px;}
@@ -127,4 +126,106 @@ body{
     background-image: url('../assets/image/ipl\ image.jpg');
     background-repeat:round;
     background-size:cover;
+}
+
+.above_slider1{
+  margin:74px;
+  width:90%;
+  height:70px;
+  background-color: rgba(1, 5, 8, 0.034);
+  display:flex;
+
+}
+.preheading{
+  width:80%;
+  height:40px;
+}
+
+.preheading_logo1{
+  margin:10px 300px;
+  padding:10px;
+  font-size:30px;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  font-family: cursive;
+  color: rgba(17, 17, 17, 0.911);
+  float: center;
+
+}
+
+
+.features{
+  width:100%;
+  height:500px;
+  margin:10px;
+  display:flex;
+}
+
+.feature_colm{
+  margin:22px 37px;
+  width:24%;
+  height:550px;
+  background-color:rgba(192, 192, 192, 0.541);
+  border-radius: 15px ;
+  float:right;
+}
+
+.feature_colm p{
+  margin:0px;
+  padding:10px;
+  font-size: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight:lighter;
+  color: #000000bd;
+  letter-spacing: 1px;
+  
+}
+
+.preheader2{
+  margin:10px 340px;
+  padding:0px;
+  width:50%;
+  height:70px;
+  background-image: url(../assets/image/ipl-desin.jpg);
+  background-repeat:inherit;
+  display: flex;
+
+}
+.preheading_logo2{
+  width:100%;
+  height:50px;
+}
+
+.preheading_logo2 h{
+  margin:95px;
+  padding:103px;
+  font-size: 35px;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  font-family: fantasy;
+  color:bisque;
+
+}
+
+
+.above_slider2{
+  margin:29px;
+  padding:10px;
+  width:90%;
+  height:300px;
+  background-color: #3a39346c;
+  display:flex;
+}
+
+.above_slider2 h{
+  margin:15px 68px;
+  padding:0px 9px;
+  font-size: 55px;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  font-family:cursive;
+  color:rgba(238, 52, 52, 0.829);
+  text-align: center;
+
+
 }
