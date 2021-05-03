@@ -162,12 +162,11 @@ body{
 }
 
 .feature_colm{
-  margin:22px 37px;
+  margin:22px auto;
   width:24%;
   height:550px;
   background-color:rgba(192, 192, 192, 0.541);
   border-radius: 15px ;
-  float:right;
 }
 
 .feature_colm p{
@@ -178,54 +177,191 @@ body{
   font-weight:lighter;
   color: #000000bd;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 900px) {
+  .preheader1{
+    height:50px;
+  }
+  .main_header{
+      height: 70px;
+      background-color:#55ACEE;
+  }
   
+  .above_slider1{
+    margin:40px;
+    height:40px;
+  
+  }
+
+  .preheading_logo1{
+    margin:3px 220px;
+    padding:1px;
+    font-size:13px;
+  
+  }
+  .features{
+    display:unset;
+  }
+  .feature_colm{
+    margin:30px;
+    width:26%;
+    height:425px;
+  }
+ 
+  .feature_colm p{
+    margin:0px;
+    padding:10px;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:lighter;
+    color: #000000bd;
+    letter-spacing: 1px;
+  }
 }
 
-.preheader2{
-  margin:10px 340px;
-  padding:0px;
-  width:50%;
-  height:70px;
-  background-image: url(../assets/image/ipl-desin.jpg);
-  background-repeat:inherit;
-  display: flex;
+@media screen and (max-width:600px) {
+  .preheader1{
+    height:50px;
+  }
+  .main_header{
+      height: 70px;
+      background-color:#55ACEE;
+  }
+  
+  .above_slider1{
+    margin:40px;
+    height:40px;
+  
+  }
+
+  .preheading_logo1{
+    margin:3px 220px;
+    padding:1px;
+    font-size:13px;
+  
+  }
+  .feature_colm{
+    margin:30px;
+    width:170%;
+    height:425px;
+  }
+ 
+  .feature_colm p{
+    margin:0px;
+    padding:10px;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:lighter;
+    color: #000000bd;
+    letter-spacing: 1px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .preheader1{
+      height:50px;
+    }
+    .main_header{
+        height: 70px;
+        background-color:#55ACEE;
+    }
+    
+    .above_slider1{
+      margin:40px;
+      height:40px;
+    
+    }
+  
+    .preheading_logo1{
+      margin:3px 220px;
+      padding:1px;
+      font-size:13px;
+    
+    }
+    .features{
+      display:unset;
+    }
+    .feature_colm{
+      margin:30px;
+      width:26%;
+      height:425px;
+    }
+   
+    .feature_colm p{
+      margin:0px;
+      padding:10px;
+      font-size: 13px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight:lighter;
+      color: #000000bd;
+      letter-spacing: 1px;
+    }
+  }
+  
+  @media screen and (max-width:600px) {
+    .preheader1{
+      height:25px;
+    }
+
+    .fa {
+      padding: 1px;
+      margin: 1px 10px;
+    }  
+    .main_header{
+        height: 30px;
+        background-color:#55ACEE;
+    }
+
+    .menu{
+      width: 50%;
+      padding:0px 10px;
+      height:1px;
+  }
+  .menu ul{
+    margin:1px 19px;
 
 }
-.preheading_logo2{
-  width:100%;
-  height:50px;
-}
-
-.preheading_logo2 h{
-  margin:95px;
-  padding:103px;
-  font-size: 35px;
-  font-weight:lighter;
-  letter-spacing: 1px;
-  font-family: fantasy;
-  color:bisque;
+.menu ul li a{
+    padding:9px 26px;
+    font-size:5px;
 
 }
+  
+  ul li ul li { 
+    width:65px;
+  }
 
-
-.above_slider2{
-  margin:29px;
-  padding:10px;
-  width:90%;
-  height:300px;
-  background-color: #3a39346c;
-  display:flex;
+.slider{
+    width:100%;
+    height: 150px; 
 }
-
-.above_slider2 h{
-  margin:15px 68px;
-  padding:0px 9px;
-  font-size: 55px;
-  font-weight:lighter;
-  letter-spacing: 1px;
-  font-family:cursive;
-  color:rgba(238, 52, 52, 0.829);
-  text-align: center;
-
-
+    
+    .above_slider1{
+      margin:15px;
+      height:25px;
+    
+    }
+  
+    .preheading_logo1{
+      margin:1px 10px;
+      padding:10spx;
+      font-size:8px;
+    
+    }
+    .feature_colm{
+      margin:9px;
+      width:91%;
+      height:240px;
+    }
+   
+    .feature_colm p{
+      margin:1px;
+      padding:8px;
+      font-size:9px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight:lighter;
+      color: #000000bd;
+      letter-spacing: 1px;
+    }
+  }
 }

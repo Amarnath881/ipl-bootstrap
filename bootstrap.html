@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+'<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,113 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
 </head>
 <body>
-    <div class="container2">
-        <div class="row2">
-            <div class="col-md-6" style="background-color:rgb(160, 7, 7);">
+    <div class="slider_slide">
+        <img src="assets/image/1-png.png" width="100%" height="100%" id="slide_img">
+        
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 " id="color" style="background-color:rgb(236, 218, 53);height:500px;">
+                <img src="../ipl cricket/assets/image/delhi_logo_png.png">
+            </div>
+              
+            <div class="col-md-6 " style="background-color:rgb(177, 133, 133);height:200px;">
+            <div class="form-group">
+                <label>Number 1</label>
+                <input type="number" id="a">
+            </div> 
+            <div class="form-group">
+                <label>Number 2</label>
+                <input type="number" id="b">
+            </div> 
+            <div class="form-group">
+                <input type="submit" class="btn btn-sm btn-info" onClick="add()" value="add">
+                <input type="submit" class="btn btn-sm btn-info" onClick="subtract()" value="subtract">
+                <input type="submit" class="btn btn-sm btn-info" onClick="multiplication()" value="multiplication">
+                <input type="submit" class="btn btn-sm btn-info" onClick="division()" value="division">
+            </div> 
+            <div>
+                <p id="disp"></p>
+            </div>
+            </div>
+    </div>
+    </div>
+    <script>
+        // var  a = "10";
+        // var b = 20; 
+        // console.log(typeof(parseInt(a)));
+
+        // add function
+        function add(){
+            var a = Number(document.getElementById('a').value);
+            var b = Number(document.getElementById('b').value);
+            var sum = a+b;
+            console.log("Total Number is :" + sum);
+
+            document.getElementById('disp').innerHTML = "Total Number is :" + sum;
+
+                        //alert("checking");
+                        
+        }
+function subtract()        {
+            var a = Number(document.getElementById('a').value);
+            var b = Number(document.getElementById('b').value);
+            var subtract= a-b;
+            console.log("Total Number is :" + subtract);
+
+            document.getElementById('disp').innerHTML = "Total Number is :" + subtract;
+
+        }
+        
+                
+                
+function multiplication()        {
+            var a = Number(document.getElementById('a').value);
+            var b = Number(document.getElementById('b').value);
+            var multiplication= a*b;
+            console.log("Total Number is :" + multiplication);
+
+            document.getElementById('disp').innerHTML = "Total Number is :" + multiplication;
+}
+function division() {
+            var a = Number(document.getElementById('a').value);
+            var b = Number(document.getElementById('b').value);
+            var division = a/b;
+            console.log("Total Number is :" + division);
+
+            document.getElementById('disp').innerHTML = "Total Number is :" + division;
+
+}
+        
+
+        // setTimeout(function(){
+        //     confirm("hello")},3000);
+
+        setInterval(slide,3000);
+
+        var s = 0;
+
+        function slide(){
+            var imgarray = ['assets/image/2.png.png','assets/image/3.png.png','assets/image/1-png.png'];
+
+            var colors =  ['blue','brown','yellow'];
+
+            
+
+        //    console.log(imgarray[0]);
+
+            // for(i = 0; i < imgarray.length;i++){
+                if(s < imgarray.length){
+                    console.log(imgarray[s]);
+                    document.getElementById('slide_img').src = imgarray[s];
+                    document.getElementById('color').style.backgroundColor = colors[s];
+                    s++;
+                }else{
+                    s = 0;
+                }
+            }
+       // }
+    </script>
     
 </body>
 </html>
